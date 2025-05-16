@@ -15,19 +15,17 @@ const Navbar = () => {
     <nav className="bg-white shadow-md py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <img 
-            src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
-            alt="World Soul Winning Evangelistic Ministry" 
-            className="h-12 w-auto"
-          />
-          <span className="text-church-navy font-bold hidden md:block">World Soul Winning</span>
+          <Link to="/" className="flex items-center space-x-2">
+            <img 
+              src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
+              alt="World Soul Winning Evangelistic Ministry" 
+              className="h-12 w-auto"
+            />
+            <span className="text-church-navy font-bold hidden md:block">World Soul Winning</span>
+          </Link>
         </div>
         
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link to="/" className="text-church-navy hover:text-church-red transition-colors duration-200 font-medium nav-active">
-            Home
-          </Link>
           <Link to="/about" className="text-church-navy hover:text-church-red transition-colors duration-200 font-medium">
             About
           </Link>
@@ -48,7 +46,6 @@ const Navbar = () => {
           </Button>
         </div>
         
-        {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button 
             onClick={toggleMenu}
@@ -59,7 +56,6 @@ const Navbar = () => {
         </div>
       </div>
       
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-white py-4 px-4 shadow-lg absolute w-full">
           <div className="flex flex-col space-y-4">
