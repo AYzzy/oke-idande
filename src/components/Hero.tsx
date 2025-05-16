@@ -32,7 +32,7 @@ const Hero = () => {
           
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="\src\assets\8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
+              src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
               alt="World Soul Winning Evangelistic Ministry" 
               className="max-w-full rounded-lg shadow-2xl h-auto md:max-h-[400px] animate-[pulse_5s_ease-in-out_infinite]"
             />

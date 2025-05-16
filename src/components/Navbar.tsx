@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <img 
-            src="\src\assets\8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
+            src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
             alt="World Soul Winning Evangelistic Ministry" 
             className="h-12 w-auto"
           />

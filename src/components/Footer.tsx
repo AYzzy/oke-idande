@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="\src\assets\8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png"
+                src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png"
                 alt="Church Logo" 
                 className="h-16 w-auto" 
               />
@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="mt-4 flex items-center space-x-4">
               <a href="https://okimedia.com" target="_blank" rel="noopener noreferrer">
                 <img 
-                  src="\src\assets\oke-idande media logo 2bw copy.png" 
+                  src="public/pictures/oke-idande media logo 2bw copy.png" 
                   alt="Oki Media Logo" 
                   className="h-16 w-auto"
                 />
