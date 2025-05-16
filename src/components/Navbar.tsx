@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="public/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
+              src="/pictures/8e58092f-667b-4d1a-a2d3-16c4ed8ff02d.png" 
               alt="World Soul Winning Evangelistic Ministry" 
               className="h-12 w-auto"
             />
