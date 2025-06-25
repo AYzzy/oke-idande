@@ -1,5 +1,5 @@
-import { Button } from "../components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "./ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Heart, Users, Globe, BookOpen, Mic, HandHeart } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -48,7 +48,6 @@ const MinistrySection = () => {
       color: "bg-teal-500",
     },
   ];
-
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -89,7 +88,6 @@ const MinistrySection = () => {
             </Card>
           ))}
         </div>
-        
         <div className="mt-12 text-center">
           <div className="bg-white rounded-lg shadow-md p-8 max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-church-navy mb-4">Ready to Serve?</h3>
@@ -117,6 +115,6 @@ const MinistrySection = () => {
       </div>
     </section>
   );
-};
+}
 
-export default MinistrySection;
+export default MinistrySection
