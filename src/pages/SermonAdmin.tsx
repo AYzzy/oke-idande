@@ -79,9 +79,10 @@ const SermonAdmin = () => {
       toast.success("Sermon updated successfully!");
     } else {
       // Add new sermon
+      const { id, ...restFormData } = formData as Sermon;
       const newSermon: Sermon = {
         id: Date.now(),
-        ...formData as Sermon,
+        ...restFormData,
       };
       setSermons(prev => [newSermon, ...prev]);
       toast.success("Sermon added successfully!");

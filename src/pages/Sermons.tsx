@@ -16,17 +16,17 @@ const Sermons = () => {
   const allSermons = [
     {
       id: 1,
-      title: "Walking in Faith",
-      preacher: "Pastor John",
-      date: "December 15, 2024",
-      year: "2024",
+      title: "Laying your Treasures in the Wrong Place",
+      preacher: "Pastor Olakunke Agboola",
+      date: "May 18, 2025",
+      year: "2025",
       duration: "45 min",
       description: "A powerful message about trusting God in uncertain times and walking by faith, not by sight.",
-      audioUrl: "https://example.com/sermon1.mp3",
+      audioUrl: "https://audiomack.com/cacwosemokeidande/song/sermon-3?share-user-id=144151068",
       videoUrl: "https://youtube.com/watch?v=example1",
       downloadUrl: "https://example.com/sermon1-download.mp3",
       scripture: "2 Corinthians 5:7",
-      thumbnail: "https://images.pexels.com/photos/8468/bible-open-book-religion-christian.jpg?auto=compress&cs=tinysrgb&w=400",
+      thumbnail: "https://th.bing.com/th/id/OIP.L7SWsMJ-2FMxQ939nwZR-wHaEJ?w=900&h=504&rs=1&pid=ImgDetMain&cb=idpwebpc2 ",
       series: "Faith Series",
     },
     {
@@ -292,7 +292,11 @@ const Sermons = () => {
               <Button className="bg-church-red hover:bg-opacity-90">
                 Subscribe to Podcast
               </Button>
-              <Button variant="outline" className="border-church-navy text-church-navy hover:bg-church-navy hover:text-white">
+              <Button 
+              variant="outline" 
+              className="border-church-navy text-church-navy hover:bg-church-navy hover:text-white"
+              onClick={() => window.open("https://youtube.com/@christapostolicchurchwosem2678?si=AHqvsfeJUPFS3Gvd", "_blank")}
+              >
                 Follow on YouTube
               </Button>
             </div>
