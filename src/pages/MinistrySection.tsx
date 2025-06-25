@@ -88,8 +88,30 @@ const MinistrySection = () => {
             </Card>
           ))}
         </div>
-        
-        
+        <div className="mt-12 text-center">
+          <div className="bg-white rounded-lg shadow-md p-8 max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold text-church-navy mb-4">Ready to Serve?</h3>
+            <p className="text-gray-600 mb-6">
+              God has given each of us unique gifts and talents. We believe that everyone has a role to play 
+              in building God's kingdom. Whether you're new to faith or have been walking with God for years, 
+              there's a place for you to serve and grow.
+            </p>
+            <div className="scripture-quote bg-gray-100 p-6 rounded-lg border-l-4 border-church-red mb-6">
+              <p className="text-lg italic text-gray-800">
+                "As each has received a gift, use it to serve one another, as good stewards of God's varied grace."
+              </p>
+              <p className="text-right font-semibold text-church-navy mt-2">- 1 Peter 4:10</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button asChild className="bg-church-red hover:bg-opacity-90">
+                <Link to="/contact">Contact Us</Link>
+              </Button>
+              <Button asChild variant="outline" className="border-church-navy text-church-navy hover:bg-church-navy hover:text-white">
+                <Link to="/about">Learn More</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
