@@ -48,6 +48,51 @@ const MinistrySection = () => {
       color: "bg-teal-500",
     },
   ];
+  return (
+    <section className="py-16 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-church-navy mb-4">Our Ministries</h2>
+          <div className="w-20 h-1 bg-church-red mx-auto mb-4"></div>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Discover the various ways you can get involved and serve in our church community. 
+            There's a place for everyone to use their gifts and talents for God's glory.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {ministries.map((ministry, index) => (
+            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow group">
+              <CardHeader className="text-center pb-4">
+                <div className={`${ministry.color} w-16 h-16 rounded-full flex items-center justify-center text-white mx-auto mb-4 group-hover:scale-110 transition-transform`}>
+                  {ministry.icon}
+                </div>
+                <CardTitle className="text-xl text-church-navy">{ministry.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center space-y-4">
+                <p className="text-gray-600">
+                  {ministry.description}
+                </p>
+                <div className="bg-gray-100 p-3 rounded-lg">
+                  <p className="text-sm font-semibold text-church-navy mb-1">Schedule:</p>
+                  <p className="text-sm text-gray-700">{ministry.schedule}</p>
+                </div>
+                <Button 
+                  asChild 
+                  variant="outline" 
+                  className="w-full border-church-red text-church-red hover:bg-church-red hover:text-white"
+                >
+                  <Link to="/contact">Get Involved</Link>
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        
+        
+      </div>
+    </section>
+  );
 }
 
 export default MinistrySection
