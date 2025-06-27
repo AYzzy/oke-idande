@@ -24,7 +24,7 @@ const Sermons = () => {
       description: "A powerful message about trusting God in uncertain times and walking by faith, not by sight.",
       audioUrl: "https://audiomack.com/cacwosemokeidande/song/sermon-3?share-user-id=144151068",
       videoUrl: "https://youtube.com/watch?v=example1",
-      downloadUrl: "https://example.com/sermon1-download.mp3",
+      downloadUrl: "https://drive.google.com/file/d/1R99NU0g44K25HzAIpUXwDokhqygqhjhJ/view?usp=drive_link",
       scripture: "2 Corinthians 5:7",
       thumbnail: "https://th.bing.com/th/id/OIP.L7SWsMJ-2FMxQ939nwZR-wHaEJ?w=900&h=504&rs=1&pid=ImgDetMain&cb=idpwebpc2 ",
       series: "Faith Series",
