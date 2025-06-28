@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, QrCode } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 
@@ -39,9 +39,6 @@ const Navbar = () => {
           </Link>
           <Link to="/contact" className="text-church-navy hover:text-church-red transition-colors duration-200 font-medium">
             Contact
-          </Link>
-          <Link to="/qr-code" className="text-church-navy hover:text-church-red transition-colors duration-200 font-medium">
-            <QrCode size={20} />
           </Link>
           <Button className="bg-church-red hover:bg-opacity-90 ml-2">
             Donate
@@ -102,14 +99,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
-            </Link>
-            <Link 
-              to="/qr-code" 
-              className="text-church-navy hover:text-church-red transition-colors duration-200 font-medium py-2 flex items-center gap-2"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              <QrCode size={20} />
-              QR Code
             </Link>
             <Button 
               className="bg-church-red hover:bg-opacity-90 w-full"

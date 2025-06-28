@@ -9,7 +9,6 @@ import Sermons from "./pages/Sermons";
 import SermonAdmin from "./pages/SermonAdmin";
 import Ministries from "./pages/Ministries";
 import Contact from "./pages/Contact";
-import QRCodePage from "./pages/QRCode";
 import NotFound from "./pages/NotFound";
 import { Toaster } from "./components/ui/sonner";
 
@@ -27,7 +26,6 @@ const App = () => (
           <Route path="/sermon-admin" element={<SermonAdmin />} />
           <Route path="/ministries" element={<Ministries />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/qr-code" element={<QRCodePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
