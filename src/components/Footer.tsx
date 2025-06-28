@@ -82,7 +82,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="mt-1 flex-shrink-0" />
-                <span>23, Rami Olademeji street, Ebutte-Meta(West)</span>
+                <span>23, Rami Oladimeji street, Ebute-Meta(West)</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={20} className="flex-shrink-0" />
@@ -96,7 +96,7 @@ const Footer = () => {
               <div>
                 <h4 className="font-semibold mt-4 mb-2">Service Times:</h4>
                 <p className="text-gray-300">Sunday: 9:00 AM & 12:00 pm</p>
-                <p className="text-gray-300">Wednesday: 6:00 PM</p>
+                <p className="text-gray-300">Tuesday: 6:00 PM</p>
               </div>
             </div>
           </div>

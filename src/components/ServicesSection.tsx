@@ -32,7 +32,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="flex items-start space-x-3 text-gray-700">
                   <MapPin size={18} className="text-church-red mt-1" />
-                  <span>Church Auditorium<br />23, Rami Olademeji street, Ebutte-Meta(West)</span>
+                  <span>Church Auditorium<br />23, Rami Oladimeji street, Ebute-Meta(West)</span>
                 </div>
                 <p className="border-t border-gray-200 pt-4 text-gray-600">
                   Join us for powerful worship, Biblical teaching, and a warm community experience.
@@ -45,7 +45,7 @@ const ServicesSection = () => {
           <Card className="overflow-hidden hover:shadow-lg transition-shadow">
             <div className="h-1 bg-church-blue w-full"></div>
             <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-3 text-church-navy">Wednesday Bible Study</h3>
+              <h3 className="text-xl font-bold mb-3 text-church-navy">Tuesday Bible Study</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 text-gray-700">
                   <CalendarDays size={18} className="text-church-blue" />
@@ -57,7 +57,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="flex items-start space-x-3 text-gray-700">
                   <MapPin size={18} className="text-church-blue mt-1" />
-                  <span>Church Auditorium <br />23, Rami Olademeji street, Ebutte-Meta(West)</span>
+                  <span>Church Auditorium <br />23, Rami Oladimeji street, Ebute-Meta(West)</span>
                 </div>
                 <p className="border-t border-gray-200 pt-4 text-gray-600">
                   Mid-week spiritual recharge with in-depth Bible teaching and prayer.
@@ -82,7 +82,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="flex items-start space-x-3 text-gray-700">
                   <MapPin size={18} className="text-church-navy mt-1" />
-                  <span>Church Auditorium<br />23, Rami Olademeji street, Ebutte-Meta(West)</span>
+                  <span>Church Auditorium<br />23, Rami Oladimeji street, Ebute-Meta(West)</span>
                 </div>
                 <p className="border-t border-gray-200 pt-4 text-gray-600">
                   Engaging worship, relevant teaching and powerful prayers.
